@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# A Bash script that ignores SIGTERM and displays a message
+# A Bash script that catches SIGTERM
 
 trap 'echo "I am invincible!!!"' SIGTERM
 
